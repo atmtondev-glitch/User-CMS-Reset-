@@ -1,4 +1,5 @@
 import 'package:cms_pwd_reset/screens/user_list_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,9 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
-        fontFamily: 'sans-serif'
+        fontFamily: 'sans-serif',
       ),
-      home: const UserListScreen(),
+      home: UserListScreen(),
     );
   }
 }
